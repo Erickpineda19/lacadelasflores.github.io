@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin:  0;
+}
+
+main {
+    padding: 10px;
+}
+
+.flores {
+    margin-bottom: 2px;
+}
+
+.flor {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: inline-block;
+    width: calc(10% - 5px); /* Tres columnas */
+    vertical-align: top;
+}
+
+.flor img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .flor {
+        width: calc(50% - 40px); /* Dos columnas en pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .flor {
+        width: 100%; /* Una columna en pantallas pequeñas */
+    }
+}
+

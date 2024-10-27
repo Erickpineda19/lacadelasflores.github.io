@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floristería</title>
+
+    <style>
+        /* Estilos para la imagen de fondo */
+        body {
+            background-image: url(4.jpg); /* Cambia la ruta por la de tu imagen */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+
+        /* Capa de transparencia sobre la imagen de fondo */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        /* Contenido encima de la capa de transparencia */
+        .content {
+            position: relative;
+            z-index: 2;
+            color: white;
+            text-align: center;
+            padding-top: 5%;
+        }
+
+        h1 {
+            color: white;
+            font-size: 2em;
+        }
+
+        /* Estilos para el logo */
+        .logo {
+            width: 270px; /* Ajusta el tamaño del logo */
+            margin-top: 10px;
+        }
+    </style>
+             <link href="Styloflor.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <!-- Capa de transparencia -->
+    <div class="overlay"></div>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <!-- Logo en la parte superior -->
+      <img src="logo.png" alt="Logo Floristería" class="logo">
+
+        <h1>
+        <nav>
+            <blockquote>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="Naturales.html">Flores Naturales</a>
+                <a href="Artificiales.html">Flores Artificiales</a>
+                <a href="Contactos.html">Contáctanos</a>
+            </blockquote>
+        </nav>
+        </h1>
+        <p>Aquí te ofrecemos lo mejor en flores, tanto artificiales como naturales. Complacer a nuestros clientes es nuestra prioridad.</p>
+    </div>
+</body>
+</html>

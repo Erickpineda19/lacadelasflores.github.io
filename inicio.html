@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida</title>
+
+    <style>
+        /* Fondo de la página */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffe6f2; /* Fondo rosa claro */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Contenedor de bienvenida */
+        .welcome-container {
+            text-align: center;
+        }
+
+        /* Título y mensaje de bienvenida */
+        .welcome-message h1 {
+            color: #ff66b2; /* Color rosa oscuro */
+            font-size: 2.5em;
+            margin: 0;
+            animation: colorFade 3s infinite alternate;
+        }
+
+        .welcome-message p {
+            color: #ff99cc; /* Color rosa más claro */
+            font-size: 1.2em;
+            margin-top: 10px;
+            animation: colorPulse 3s infinite;
+        }
+
+        /* Botón de entrada */
+        .enter-button .enter-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            color: #fff;
+            background-color: #ff66b2; /* Color rosa oscuro */
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 102, 178, 0.6);
+            animation: glow 2s infinite alternate;
+        }
+
+        .enter-button .enter-link:hover {
+            background-color: #ff99cc;
+            box-shadow: 0 0 15px rgba(255, 102, 178, 0.9);
+        }
+
+        /* Animaciones */
+        @keyframes colorFade {
+            from {
+                color: #ff66b2;
+            }
+            to {
+                color: #ff99cc;
+            }
+        }
+
+        @keyframes colorPulse {
+            0%, 100% {
+                color: #ff99cc;
+            }
+            50% {
+                color: #ff66b2;
+            }
+        }
+
+        @keyframes glow {
+            0% {
+                box-shadow: 0 0 10px rgba(255, 102, 178, 0.6), 0 0 20px rgba(255, 102, 178, 0.4);
+            }
+            100% {
+                box-shadow: 0 0 20px rgba(255, 102, 178, 0.9), 0 0 30px rgba(255, 102, 178, 0.7);
+            }
+        }
+		
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <div class="welcome-message">
+            <h1>Bienvenido a La Casa De Las Flores</h1>
+            <p>Donde cada flor cuenta una historia</p>
+        </div>
+        <div class="enter-button">
+            <a href="index.html" class="enter-link">Entrar</a>
+        </div>
+    </div>
+</body>
+</html>
+

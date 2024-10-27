@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* Estilos generales */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+    border: #ddd;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ff4c3b;
+}
+
+/* Estilos de la sección de productos */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product h3 {
+    color: #ff6f61;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.hl1{ position: absolute;right: 150px;
+
+font-size: 1EM;
+background-color: rgb(253, 142, 142);
+border: 1px solid #ddd;
+border-radius: 8px;
+margin: 10px;
+padding: 15px;
+text-align: center;
+width: 500px;
+height: 200PX;
+
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);}
+.product{ position: absolute; left: 190px;
+}/* CSS Document */
+
